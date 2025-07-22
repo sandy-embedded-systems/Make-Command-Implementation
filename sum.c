@@ -1,4 +1,4 @@
 #include<stdio.h>
-void fun(void){
-	printf("in fun\n");
+void sum(void){
+	printf("in sum function\n");
 }
