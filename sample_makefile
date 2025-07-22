@@ -1,0 +1,8 @@
+a.out:main.o fun.o sum.o 
+	cc main.o fun.o sum.o
+fun.o:fun.c
+	cc -c fun.c
+sum.o:sum.c
+	cc -c sum.c
+main.o:main.c
+	cc -c main.c
